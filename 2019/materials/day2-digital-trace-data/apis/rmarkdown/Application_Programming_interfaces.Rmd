@@ -7,6 +7,8 @@ output:
   word_document:
     toc: yes
     toc_depth: '5'
+editor_options: 
+  chunk_output_type: console
 ---
 
 <br>
@@ -103,11 +105,11 @@ If you followed the steps above, the name of your application should now appear.
 The next step is to define your credentials as string variables in R, which we will then use to authenticate ourselves with the Twitter API. Make sure to select the entire string (by triple clicking),  and make sure that you do not accidentally leave out the first or last digit (or add spaces):
 
 ```{r, eval=FALSE}
-app_name<-"YOURAPPNAMEHERE"
-consumer_key<-"YOURKEYHERE"
-consumer_secret<-"YOURSECRETHERE"
-access_token<-"YOURACCESSTOKENHERE"
-access_token_secret<-"YOURACCESSTOKENSECRETHERE"
+app_name<-"Tiago Ventura"
+consumer_key<-"fXpgcurNMIdt2vR91jZ6fevMR"
+consumer_secret<-"si4ZAdEtQrLhjKg5Eg98CfzT8k0TNgoo5Va7HcKqnWuFZnPDMt"
+access_token<- "59554649-CPl2GtDSxel5oN3bCaUiOdv2QFYKNxsLMkqrHfUeu"
+access_token_secret<-"EDkVxldY6Pb7L2IQNezpOJCWkgXgF6uT01b7mA1nBvYEE"
 ```
 
 
